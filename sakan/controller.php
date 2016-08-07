@@ -60,13 +60,13 @@ class Controller extends Package
     {
         $al = \Concrete\Core\Asset\AssetList::getInstance();
         $al->register(
-            'css',  'sakan-bootstrap', 'themes/sakan/css/bootstrap-modified.css', array(), 'sakan'
+            'css',  'sakan-bootstrap', 'themes/sakan/assets/dist/css/bootstrap-modified.css', array(), 'sakan'
         );
         $al->register(
-            'css',  'sakan-style', 'themes/sakan/css/style.css', array(), 'sakan'
+            'css',  'sakan-style', 'themes/sakan/assets/dist/css/style.css', array(), 'sakan'
         );
         $al->register(
-            'javascript',  'sakan-bootstrap', 'themes/sakan/js/bootstrap.min.js', array(), 'sakan'
+            'javascript',  'sakan-bootstrap', 'themes/sakan/assets/dist/js/bootstrap.min.js', array(), 'sakan'
         );
     }
 }

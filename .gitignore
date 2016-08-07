@@ -1,6 +1,6 @@
 #
-# .gitignore sample for concrete5 projects
-# concrete5  .gitignore サンプルファイル
+# .gitignore sample for Sakan
+# Sakan 用 .gitignore 
 #
 #
  
@@ -10,4 +10,5 @@ thumbs.db
 __MACOSX
 ._*
 
-/migration_tool
+/sakan/migration_tool
+/sakan/themes/sakan/assets/node_modules/
