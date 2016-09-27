@@ -69,6 +69,11 @@ class Controller extends BlockController
         }
     }
 
+    public function getFileID()
+    {
+        return $this->fID;
+    }
+
     public function save($args)
     {
         $args = $args + array(
@@ -79,4 +84,5 @@ class Controller extends BlockController
         $args['SpPosition'] = $this->getChoice($args['SpPosition']);
         parent::save($args);
     }
+
 }
